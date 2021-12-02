@@ -13,8 +13,8 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
-    SharedModule,
-    PaisesModule
+    PaisesModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
