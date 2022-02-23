@@ -18,8 +18,8 @@ export class PorPaisComponent {
     console.log(this.termino);
     // Añadimos el manejo de errores en el componente en lugar del servicio
     this.paisService.buscarPais(this.termino)
-      .subscribe( (resp) => {
-        console.log(resp);
+      .subscribe( (paises) => {
+        console.log(paises);
       }, (err) => {
         this.hayError = true;
       }
